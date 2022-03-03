@@ -4,10 +4,10 @@
 #include "matrix_utils.h"
 
 int main() {
-    printf("Podaj szerokość i wysokość: ");
     int iUser_width = 0;
     int iUser_height = 0;
     int isCorrect = 0;
+    printf("Input width and height: ");
     isCorrect = scanf("%d %d", &iUser_width, &iUser_height);
     if (isCorrect != 2) {
         printf("Incorrect input");
